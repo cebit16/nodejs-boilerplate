@@ -1,4 +1,4 @@
-This serves as a boilerplate to get started with the application development using node.js, HANA, and SAP UI5.
+This serves as a boilerplate to get started with the application development using node.js, HANA, and Open UI5.
 
 # Prerequisites
 
@@ -6,12 +6,17 @@ Download and install the most recent LTS release from https://nodejs.org
 
 Make sure `node` and `npm` are in your path
 
+Download and install git from https://git-scm.com/downloads
+
 
 # Installation
 
-1. Extract the contents of this module somewhere locallly
-2. `cd` into that directory
-3. ```npm install``` (This loads all third party modules)
+1. clone the repository:
+  * with Open UI5: `git clone https://github.com/cebit16/nodejs-boilerplate.git --branch ui5 --single-branch`
+  * without Open UI5: `git clone https://github.com/cebit16/nodejs-boilerplate.git --branch master --single-branch`
+2. `cd nodejs-boilerplate`
+3. `npm install` (This loads all third party modules)
+4. `cp db_conf.json.template db_conf.json` and add your database credentials
 
 
 # Folder overview
