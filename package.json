@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "This is just a boilerplate to get started with node, ui5 and hana",
+  "main": "lib/app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "hdb": "^0.5.3",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "nodemon": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

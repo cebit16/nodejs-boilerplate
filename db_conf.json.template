@@ -1,0 +1,6 @@
+{
+	"host": "mydbhost",
+	"port": 30015,
+	"user": "mydbuser",
+	"password": "mydbpassword"
+}
